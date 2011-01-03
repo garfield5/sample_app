@@ -1,0 +1,23 @@
+8dik fej vege: $ rspec spec/requests/users_spec.rb 
+
+
+
+Failures:
+
+  1) Users signup failure should not make a new user
+     Failure/Error: visit signup_path
+     undefined method `model_name' for NilClass:Class
+     # ./app/views/users/new.html.erb:3:in `_app_views_users_new_html_erb__240509016__613890388_0'
+     # ./spec/requests/users_spec.rb:10
+     # ./spec/requests/users_spec.rb:9
+
+  2) Users signup success should make a new user
+     Failure/Error: visit signup_path
+     undefined method `model_name' for NilClass:Class
+     # ./app/views/users/new.html.erb:3:in `_app_views_users_new_html_erb__240509016__613890388_0'
+     # ./spec/requests/users_spec.rb:25
+     # ./spec/requests/users_spec.rb:24
+
+Finished in 0.1708 seconds
+2 examples, 2 failures
+
